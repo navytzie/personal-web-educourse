@@ -1,0 +1,75 @@
+
+.recommendation {
+    max-width: 800px;
+    margin: 2rem auto;
+    background-color: #fff7e6;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+
+.header {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.recommendation h2 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+
+.recommendation ul {
+    list-style: none;
+    padding: 0;
+    display: flex;           
+    gap: 30px;              
+    justify-content: center; 
+    flex-wrap: wrap;       
+    margin-bottom: 1rem;
+  }
+  
+  .recommendation li {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+  }
+  
+  
+  
+  .recommendation .item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 120px;
+    text-align: center;
+  }
+  
+  
+  .recommendation li img {
+    width: 100px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+
+  .recommendation li span {
+    margin-top: 8px;
+    font-size: 1rem;
+  }
+  
+  .footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f4f1d0; /* Sesuaikan dengan tema warna halaman kamu */
+    font-size: 14px;
+    color: #555;
+    margin-top: 40px;
+    border-top: 1px solid #ccc;
+  }
